@@ -33,7 +33,6 @@ func SetupDefault(v *viper.Viper) error {
 	}
 	v.SetDefault("arch", "amd64")
 	v.SetDefault("tag", "latest")
-	v.SetDefault("output", "github-asset-downloader")
 
 	return nil
 }
