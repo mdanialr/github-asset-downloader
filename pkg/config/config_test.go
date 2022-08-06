@@ -46,7 +46,6 @@ func TestSetupDefault(t *testing.T) {
 				require.NoError(t, err)
 				assert.Equal(t, "amd64", tc.sample.Get("arch"))
 				assert.Equal(t, "latest", tc.sample.Get("tag"))
-				assert.Equal(t, "github-asset-downloader", tc.sample.Get("output"))
 			}
 		})
 	}
